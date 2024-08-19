@@ -43,7 +43,7 @@ console.log(myname);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-console.log(10 + 25);
+console.log(12 + 20);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -96,8 +96,10 @@ let name1 = "john";
 
 let name2 = "John";
 
-console.log(name1 == name2);
+console.log(name1 === name2);
 
-let nomedue = name2.toLowerCase();
+// let nomedue = name2.toLowerCase();
 
-console.log(name1 == nomedue);
+name2 = name2.toLowerCase();
+
+console.log(name1 === name2);
